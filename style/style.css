@@ -1,4 +1,6 @@
-/* css reset */
+/* 
+css reset, for clearence all styling. 
+*/
 
 html {
     box-sizing: border-box;
@@ -71,11 +73,15 @@ a.flag2 {
     background-position: 0 -760px;
 }
 
+/* 
+changes direction for font arabic 
+direction left to right
+ex : direction: ltr;
+*/
+
 a.flag3 {
     background-position: 0 -40px;
-    /* changes direction for font arabic */
     direction: ltr;
-    /* direction left to right */
     unicode-bidi: embed;
 }
 
@@ -264,7 +270,7 @@ input.generate {
 
 input.generate:hover {
     background: #ccc;
-    border: 1px solid #666;
+    border: 1px  #666;
 }
 
 input#amount {
@@ -361,7 +367,6 @@ hr {
 .content-box-footer a{
     text-decoration: none;
 }
-
 
 #first-content>div {
     width: 48%;
