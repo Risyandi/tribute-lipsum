@@ -368,10 +368,19 @@ hr {
     text-decoration: none;
 }
 
-#first-content>div {
+.two-coloumn {
+    float: left;
+    width: 50%;
+    margin-right: 20px;
+}
+
+
+/* first way for become two coloumn */
+
+/* #first-content>div {
     width: 48%;
     text-align: left;
-}
+} 
 
 #first-content>div:nth-of-type(odd) {
     float: left;
@@ -381,4 +390,4 @@ hr {
 #first-content>div:nth-of-type(even) {
     float: right;
     margin: 0px 1% 0px 1%;
-}
+} */
