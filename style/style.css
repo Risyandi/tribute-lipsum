@@ -376,17 +376,14 @@ hr {
 
 
 /* first way for become two coloumn */
-
 /* #first-content>div {
     width: 48%;
     text-align: left;
 } 
-
 #first-content>div:nth-of-type(odd) {
     float: left;
     margin: 0px 1% 0px 1%;
 }
-
 #first-content>div:nth-of-type(even) {
     float: right;
     margin: 0px 1% 0px 1%;
