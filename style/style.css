@@ -1,0 +1,379 @@
+/* css reset */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pm,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* main style */
+
+.main-wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* flag languages */
+
+#flag-languages a {
+    font-size: 12px;
+    padding: 1px 6px 1px 22px;
+    line-height: 20px;
+    background-image: url(../images/flag-languages.png);
+    background-repeat: no-repeat;
+}
+
+#flag-languages {
+    margin: 20px 15px 5px;
+}
+
+/* explain code CSS:
+background-position-x : for horizontal; 
+background-position-y : for vertical; 
+*/
+
+a.flag1 {
+    background-position: 0 -400px;
+}
+
+a.flag2 {
+    background-position: 0 -760px;
+}
+
+a.flag3 {
+    background-position: 0 -40px;
+    /* changes direction for font arabic */
+    direction: ltr;
+    /* direction left to right */
+    unicode-bidi: embed;
+}
+
+a.flag4 {
+    background-position: 0 -80px;
+}
+
+a.flag5 {
+    background-position: 0 -120px;
+}
+
+a.flag6 {
+    background-position: 0 -920px;
+}
+
+a.flag7 {
+    background-position: 0 -360px;
+}
+
+a.flag8 {
+    background-position: 0 -140px;
+}
+
+a.flag9 {
+    background-position: 0 -160px;
+}
+
+a.flag10 {
+    background-position: 0 -560px;
+}
+
+a.flag11 {
+    background-position: 0 -220px;
+}
+
+a.flag12 {
+    background-position: 0 -260px;
+}
+
+a.flag13 {
+    background-position: 0 -960px;
+}
+
+a.flag14 {
+    background-position: 0 -300px;
+}
+
+a.flag15 {
+    background-position: 0 -320px;
+}
+
+a.flag16 {
+    background-position: 0 -460px;
+}
+
+a.flag17 {
+    background-position: 0 -180px;
+}
+
+a.flag18 {
+    background-position: 0 -200px;
+}
+
+a.flag19 {
+    background-position: 0 -340px;
+}
+
+a.flag20 {
+    background-position: 0 -980px;
+}
+
+a.flag21 {
+    background-position: 0 -380px;
+}
+
+a.flag22 {
+    background-position: 0 -420px;
+}
+
+a.flag23 {
+    background-position: 0 -440px;
+}
+
+a.flag24 {
+    background-position: 0 -500px;
+}
+
+a.flag25 {
+    background-position: 0 -480px;
+}
+
+a.flag26 {
+    background-position: 0 -520px;
+}
+
+a.flag27 {
+    background-position: 0 -540px;
+}
+
+a.flag28 {
+    background-position: 0 -580px;
+}
+
+a.flag29 {
+    background-position: 0 -600px;
+}
+
+a.flag30 {
+    background-position: 0 -620px;
+}
+
+a.flag31 {
+    background-position: 0 -640px;
+}
+
+a.flag32 {
+    background-position: 0 -660px;
+}
+
+a.flag33 {
+    background-position: 0 -780px;
+}
+
+a.flag34 {
+    background-position: 0 -700px;
+}
+
+a.flag35 {
+    background-position: 0 -720px;
+}
+
+a.flag36 {
+    background-position: 0 -240px;
+}
+
+a.flag37 {
+    background-position: 0 -800px;
+}
+
+a.flag38 {
+    background-position: 0 -840px;
+}
+
+a.flag39 {
+    background-position: 0 -860px;
+}
+
+a.flag40 {
+    background-position: 0 -880px;
+}
+
+a.flag41 {
+    background-position: 0 -900px;
+}
+
+/* text modifier */
+
+a:link,
+a:active,
+a:visited {
+    color: black;
+}
+
+.text-red, 
+a:hover {
+    color: #ff0000;
+}
+
+.click-bold:active, 
+.click-bold:visited, 
+.click-bold:link, 
+.click-bold:hover  {
+    font-weight: 700;
+    color: #ff0000;   
+}
+
+/* input modifier */
+
+input.generate {
+    margin-top: 10px;
+    padding: 3px 10px;
+    border: 1px solid #999;
+    background: #eee;
+    border-radius: 5px;
+}
+
+input.generate:hover {
+    background: #ccc;
+    border: 1px solid #666;
+}
+
+input#amount {
+    text-align: center;
+}
+
+/* font style */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@font-face {
+    font-family: 'DauphinPlain';
+    src: url(../fonts/DauphinPlain.eot?#iefix) format('embedded-opentype'), 
+        url(../fonts/DauphinPlain.svg#DauphinPlain) format('svg'), 
+        url(../fonts/DauphinPlain.ttf) format('truetype'), 
+        url(../fonts/DauphinPlain.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+h1,
+h2 {
+    font-family: DauphinPlain;
+}
+
+body,
+html,
+input {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 90px;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 15px ;
+    margin-top: 15px ;
+    font-weight: 700;
+}
+
+h4 {
+    margin: 10px 10px 5px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+h5 {
+    margin: 5px 10px 20px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+
+/* line separate */
+
+hr {
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .75), rgba(0, 0, 0, 0));
+    border: 0;
+    clear: both;
+}
+
+/* content */
+
+.main-content,
+.content-box,
+.content-box-footer  {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content-box a,
+.img-box {
+    margin: 5px 5px 5px 0;
+}
+
+.content-box-footer a{
+    text-decoration: none;
+}
+
+
+#first-content>div {
+    width: 48%;
+    text-align: left;
+}
+
+#first-content>div:nth-of-type(odd) {
+    float: left;
+    margin: 0px 1% 0px 1%;
+}
+
+#first-content>div:nth-of-type(even) {
+    float: right;
+    margin: 0px 1% 0px 1%;
+}
