@@ -270,7 +270,6 @@ input.generate {
 
 input.generate:hover {
     background: #ccc;
-    border: 1px  #666;
 }
 
 input#amount {
