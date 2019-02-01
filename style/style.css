@@ -41,8 +41,10 @@ img {
 /* main style */
 
 .main-wrapper {
-    width: 960px;
-    margin: 0 auto;
+    /* width: 960px; */
+    /* margin: 0 auto; */
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: center;
 }
 
@@ -57,7 +59,7 @@ img {
 }
 
 #flag-languages {
-    margin: 20px 15px 5px;
+    margin: 2% 5% 2%;
 }
 
 /* explain code CSS:
@@ -347,6 +349,10 @@ hr {
     clear: both;
 }
 
+/* table responsive */
+.table-res {
+    overflow-x: auto;
+}
 /* content */
 
 .main-content,
@@ -366,12 +372,26 @@ hr {
     text-decoration: none;
 }
 
-.two-coloumn {
+.first-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content-item {
+    flex: 0 0 47%;
+    text-align: justify;
+    min-width: 300px;
+}
+
+
+/*  **** garbage css **** */
+
+/* .two-coloumn {
     float: left;
     width: 50%;
     margin-right: 20px;
-}
-
+} */
 
 /* first way for become two coloumn */
 /* #first-content>div {
