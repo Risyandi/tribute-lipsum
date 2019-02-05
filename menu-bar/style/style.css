@@ -38,11 +38,15 @@ img {
 
 
 /* main style */
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
 
 .wrapper-menu {
-    background-color: antiquewhite;
+    display: flex;
+    background: #80d688;
 }
-
+ a {
+    font-family: 'Roboto', sans-serif;
+ }
 
 /* menu bar */
 
@@ -56,28 +60,28 @@ img {
 
 #menu-bar ul a {
     display: block;
-    color: #333;
+    color: azure;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 12px;
     line-height: 32px;
     padding: 0 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #menu-bar ul li {
     margin: 0;
-    padding: 0;
+    padding: 5px;
     position: relative;
     float: left;
+    background: #80d688;
 }
 
 #menu-bar ul li.current-menu {
-    background: #ddd;
+    background: #5fe06a;
 }
 
 #menu-bar ul li:hover {
-    background: #f6f6f6;
+    background: #98ea9f;
 }
 
 #menu-bar ul ul {
