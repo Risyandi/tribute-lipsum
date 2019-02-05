@@ -1,0 +1,109 @@
+/* css reset, for clearence all styling. */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pm,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* main style */
+
+.wrapper-menu {
+    background-color: antiquewhite;
+}
+
+
+/* menu bar */
+
+#menu-bar ul {
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#menu-bar ul a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 32px;
+    padding: 0 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menu-bar ul li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+}
+
+#menu-bar ul li.current-menu {
+    background: #ddd;
+}
+
+#menu-bar ul li:hover {
+    background: #f6f6f6;
+}
+
+#menu-bar ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    padding: 0;
+}
+
+#menu-bar ul ul li {
+    float: none;
+    width: 200px;
+}
+
+#menu-bar ul ul a {
+    line-height: 120%;
+    padding: 10px 15px;
+}
+
+#menu-bar ul ul ul {
+    top: 0;
+    left: 100%;
+}
+
+#menu-bar ul li:hover>ul {
+    display: block;
+}
